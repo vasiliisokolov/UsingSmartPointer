@@ -52,7 +52,7 @@ public:
         {
             std::cout << "I already have this toy!" << std::endl;
         }
-        else if (newToy.use_count() == 2)
+        else if (newToy.use_count() == 3)
         {
             std::cout << newToy.use_count() << std::endl;
             std::cout << "Another dog is playing with this toy!" << std::endl;
